@@ -41,12 +41,9 @@ function Techstack() {
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-<<<<<<< HEAD
-=======
         <SiFirebase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
->>>>>>> 40ead90eeae13fe222c1e29c08925d985548f957
         <DiPython />
       </Col>
     </Row>
