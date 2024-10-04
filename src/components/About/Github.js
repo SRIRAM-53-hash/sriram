@@ -16,10 +16,11 @@ function Github() {
         fontSize={16}
       />
       <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
-        <strong className="purple">Leetcode</strong>
+        Days I <strong className="purple">Leetcode</strong>
       </h1>
       <div style={{ marginTop: "20px", textAlign: "center" }}>
         <a href="https://leetcode.com/user5520nJ?ext=heatmap" target="_blank" rel="noopener noreferrer">
+          LeetCode Profile
         </a>
       </div>
     </Row>
