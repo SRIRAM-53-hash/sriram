@@ -15,6 +15,11 @@ function Github() {
         color="#c084f5"
         fontSize={16}
       />
+      <div style={{ marginTop: "20px", textAlign: "center" }}>
+        <a href="https://leetcode.com/user5520nJ?ext=heatmap" target="_blank" rel="noopener noreferrer">
+          LeetCode Profile
+        </a>
+      </div>
     </Row>
   );
 }
