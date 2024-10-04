@@ -1,0 +1,20 @@
+.neon-text {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(128, 0, 128, 0.7), /* Neon purple glow */
+                 0 0 20px rgba(128, 0, 255, 0.5),
+                 0 0 30px rgba(128, 0, 255, 0.5);
+    animation: neonGlow 1.5s ease-in-out infinite alternate;
+  }
+  
+  @keyframes neonGlow {
+    from {
+      text-shadow: 0 0 10px rgba(128, 0, 128, 0.7), 0 0 20px rgba(128, 0, 255, 0.5), 0 0 30px rgba(128, 0, 255, 0.5);
+    }
+    to {
+      text-shadow: 0 0 20px rgba(255, 0, 255, 1), 0 0 30px rgba(255, 0, 255, 1), 0 0 40px rgba(255, 0, 255, 1);
+    }
+  }
+  
