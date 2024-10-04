@@ -16,8 +16,8 @@ function AboutCard() {
 enjoy simplifying complex technical concepts and using technology to solve
 real-world problems.
             <br />
-            How to reach me 🤔:<br>
-            📧:sriramsivakumar2005@gmail.com</br>
+            How to reach me 🤔:<br/>
+            📧:sriramsivakumar2005@gmail.com<br/>
             📞:6383486227
             <br />
             <br />

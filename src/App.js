@@ -3,6 +3,7 @@ import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
+import AboutCard from "./components/About/AboutCard";
 import Projects from "./components/Projects/Projects";
 import Certificates from "./components/certificates/certifi";
 import Footer from "./components/Footer";
@@ -17,7 +18,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import certificates from "./components/certificates/certifi";
+import certificates from "./components/certificates/certificard"
 
 function App() {
   const [load, upadateLoad] = useState(true);
