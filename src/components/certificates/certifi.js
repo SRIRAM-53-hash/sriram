@@ -6,6 +6,9 @@ import aa from "../../Assets/certifiimage/aa.png";
 import bb from "../../Assets/certifiimage/bb.png";
 import cc from "../../Assets/certifiimage/cc.png";
 import dd from "../../Assets/certifiimage/dd.png";
+import ee from "../../Assets/certifiimage/ee.jpg";
+import ff from "../../Assets/certifiimage/ff.jpg";
+import gg from "../../Assets/certifiimage/gg.jpg";
 
 function certificates() {
   return (
@@ -17,6 +20,30 @@ function certificates() {
         </h1>
         <p style={{ color: "white" }}>I have learnt more things from these courses.</p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <Certificard
+              imgPath={ee}
+              isBlog={false}
+              title="Smart India Hackathon 2023 Winner 🏆"
+              description="Created industrial based hygiene monitor system."
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <Certificard
+              imgPath={ff}
+              isBlog={false}
+              title="Project War 🏆"
+              description="Hidden Cost Identifer and Dark Pattern Detection."
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <Certificard
+              imgPath={gg}
+              isBlog={false}
+              title="Paper War 🥈"
+              description="Hidden Cost Identifer and Dark Pattern Detection."
+            />
+          </Col>
           <Col md={4} className="project-card">
             <Certificard
               imgPath={aa}
