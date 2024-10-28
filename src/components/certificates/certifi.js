@@ -22,18 +22,18 @@ function certificates() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
             <Certificard
-              imgPath={ee}
-              isBlog={false}
-              title="Smart India Hackathon 2023 Winner 🏆"
-              description="Created industrial based hygiene monitor system."
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <Certificard
               imgPath={ff}
               isBlog={false}
               title="Project War 🏆"
               description="Hidden Cost Identifer and Dark Pattern Detection."
+            />
+          </Col>
+        <Col md={4} className="project-card">
+            <Certificard
+              imgPath={ee}
+              isBlog={false}
+              title="Smart India Hackathon 2023 Winner 🏆"
+              description="Created industrial based hygiene monitor system."
             />
           </Col>
           <Col md={4} className="project-card">
