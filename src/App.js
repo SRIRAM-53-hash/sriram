@@ -1,23 +1,35 @@
-import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Preloader from './components/Preloader';
-import Navbar from './components/Navbar';
-import ScrollToTop from './components/ScrollToTop';
-import Home from './components/Home';
-import Projects from './components/Projects';
-import About from './components/About';
-import Resume from './components/Resume';
-import Certificates from './components/Certificates';
-import Footer from './components/Footer';
+import React, { useState, useEffect } from "react";
+import Preloader from "../src/components/Pre";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home/Home";
+import About from "./components/About/About";
+import AboutCard from "./components/About/AboutCard";
+import Projects from "./components/Projects/Projects";
+import Certificates from "./components/certificates/certifi";
+import Footer from "./components/Footer";
+import Resume from "./components/Resume/ResumeNew";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Navigate
+} from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
+import "./style.css";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import certificates from "./components/certificates/certificard"
 
 function App() {
-  const [load, setLoad] = useState(true);
+  const [load, upadateLoad] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => setLoad(false), 3000);
+    const timer = setTimeout(() => {
+      upadateLoad(false);
+    }, 1200);
+
     return () => clearTimeout(timer);
   }, []);
-
   return (
     <Router>
       <Preloader load={load} />
@@ -29,12 +41,11 @@ function App() {
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/certificates" element={<Certificates />} />
+          <Route path="/certificates" element={<Certificates/>} />
+          {/* <Route path="*" element={<Navigate to="/"/>} /> */}
         </Routes>
         <Footer />
       </div>
     </Router>
   );
-}
-
-export default App;
+}  
