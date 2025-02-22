@@ -23,7 +23,7 @@ function Home2() {
               <br />
               <br />I like to program in 
               <i>
-                <b className="purple"> C, C++,Python . </b>
+                <b className="purple"> C, Java, React, SQL. </b>
               </i>
               <br />
               <br />
